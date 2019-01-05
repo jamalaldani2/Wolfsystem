@@ -174,7 +174,7 @@ client.on("message", message => {
 };    
 });
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","‹"›members"));
+    member.addRole(member.guild.roles.find("name","➥members"));
     });
 
 client.on("message", (message) => {
@@ -184,7 +184,7 @@ client.on("message", (message) => {
         if (!message.guild.roles.exists("name", "Support Team")) return message.channel.send(`This server doesn't have a \`‹"›support team\` role made, so the ticket won't be opened.\nIf you are an administrator, make one with that name exactly and give it to users that should be able to see tickets.`);
         if (message.guild.channels.exists("name", "ticket-{message.author.id}" + message.author.id)) return message.channel.send(`You already have a ticket open.`);    /// ALPHA CODES
         message.guild.createChannel(`ticket-${message.author.username}`, "text").then(c => {
-            let role = message.guild.roles.find("name", "‹"›support team");
+            let role = message.guild.roles.find("name", "➥support team");
             let role2 = message.guild.roles.find("name", "@everyone");
             c.overwritePermissions(role, {
                 SEND_MESSAGES: true,
