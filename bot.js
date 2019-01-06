@@ -300,22 +300,21 @@ client.on('guildMemberRemove', member => {
 
 client.on("ready", async  => {
   setInterval(function(){
- client.channels.find('id', '531565101640187904').setName("W");
-  client.channels.find('id', '531565101640187904').setName("We");
-  client.channels.find('id', '531565101640187904').setName("Wel");
-  client.channels.find('id', '531565101640187904').setName("Welc");
-  client.channels.find('id', '531565101640187904').setName("Welco");
-  client.channels.find('id', '531565101640187904').setName("Welcom");
-  client.channels.find('id', '531565101640187904').setName("Wlcome");
-  client.channels.find('id', '531565101640187904').setName("Welcome T");
-  client.channels.find('id', '531565101640187904').setName("Welcome To");
-  client.channels.find('id', '531565101640187904').setName("Welcome To Wo");
-  client.channels.find('id', '531565101640187904').setName("Welcome To Wolf");
-  client.channels.find('id', 531565101640187904').setName("Welcome To Wolf M");
-  client.channels.find('id', '531565101640187904').setName("Welcome To Wolf Mc");
+  client.channels.find('id', '531490108646490142').setName("W");
+  client.channels.find('id', '531490108646490142').setName("We");
+  client.channels.find('id', '531490108646490142').setName("Wel");
+  client.channels.find('id', '531490108646490142').setName("Welc");
+  client.channels.find('id', '531490108646490142').setName("Welco");
+  client.channels.find('id', '531490108646490142').setName("Welcome");
+  client.channels.find('id', '531490108646490142').setName("Welcome To");
+  client.channels.find('id', '531490108646490142').setName("Welcome To W");
+  client.channels.find('id', '531490108646490142').setName("Welcome To Wo");
+  client.channels.find('id', '531490108646490142').setName("Welcome To Wol");
+  client.channels.find('id', '531490108646490142').setName("Welcome To Wolf");
+  client.channels.find('id', '531490108646490142').setName("Welcome To Wolf M");
+  client.channels.find('id', '531490108646490142').setName("Welcome To Wolf Mc");
     }, 4000);
   });
-
 
 
 
