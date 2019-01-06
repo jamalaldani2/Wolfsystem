@@ -300,19 +300,19 @@ client.on('guildMemberRemove', member => {
 
 client.on("ready", async  => {
   setInterval(function(){
- client.channels.find('id', '531483891169492992').setName("W");
-  client.channels.find('id', '531483891169492992').setName("We");
-  client.channels.find('id', '531483891169492992').setName("Wel");
-  client.channels.find('id', '531483891169492992').setName("Welc");
-  client.channels.find('id', '531483891169492992').setName("Welco");
-  client.channels.find('id', '531483891169492992').setName("Welcom");
-  client.channels.find('id', '531483891169492992').setName("Wlcome");
-  client.channels.find('id', '531483891169492992').setName("Welcome T");
-  client.channels.find('id', '531483891169492992').setName("Welcome To");
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wo");
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf");
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf M");
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf Mc");
+ client.channels.find('id', '531565101640187904').setName("W");
+  client.channels.find('id', '531565101640187904').setName("We");
+  client.channels.find('id', '531565101640187904').setName("Wel");
+  client.channels.find('id', '531565101640187904').setName("Welc");
+  client.channels.find('id', '531565101640187904').setName("Welco");
+  client.channels.find('id', '531565101640187904').setName("Welcom");
+  client.channels.find('id', '531565101640187904').setName("Wlcome");
+  client.channels.find('id', '531565101640187904').setName("Welcome T");
+  client.channels.find('id', '531565101640187904').setName("Welcome To");
+  client.channels.find('id', '531565101640187904').setName("Welcome To Wo");
+  client.channels.find('id', '531565101640187904').setName("Welcome To Wolf");
+  client.channels.find('id', 531565101640187904').setName("Welcome To Wolf M");
+  client.channels.find('id', '531565101640187904').setName("Welcome To Wolf Mc");
     }, 4000);
   });
 
