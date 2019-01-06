@@ -310,7 +310,25 @@ client.on('guildMemberRemove', member => {
     });
 
 
-
+client.on("ready", async  => {
+  setInterval(function(){
+  client.channels.find('id', '531483891169492992').setName("W");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("We");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Wel");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welc");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welco");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcom");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome T");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To W");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Wo");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Wol");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf M");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf Mc");//Toxic Codes 
+    }, 4000);
+  });
 
 
 
