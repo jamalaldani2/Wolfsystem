@@ -321,51 +321,18 @@ client.on("ready", async  => {
   client.channels.find('id', '531483891169492992').setName("Welcome");//Toxic Codes
   client.channels.find('id', '531483891169492992').setName("Welcome T");//Toxic Codes
   client.channels.find('id', '531483891169492992').setName("Welcome To");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To W");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wo");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wol");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf M");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Wolf Mc");//Toxic Codes 
+  client.channels.find('id', '531483891169492992').setName("Welcome To T");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Tox");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Toxi");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic C");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic Co");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic Cod");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic Code");//Toxic Codes
+  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic Codes");//Toxic Codes
     }, 4000);
   });
 
-client.on('message', message => {//Toxic Codes
-if(message.content.startsWith(prefix + 'mute')){//Toxic Codes
-    let role = message.guild.roles.find(r => r.name === 'Muted');//Toxic Codes
-    if(!role) message.guild.createRole({name: 'Muted'});//Toxic Codes
-     if(user.bot){//Toxic Codes
-        return message.channel.send(`I can't mute ${user} because he is a bot`);//Toxic Codes
-    }
-    if(user.hasPermission('ADMINISTRATOR')) {//Toxic Codes
-        return message.channel.send(`I can't mute ${user} because he is staff`);//Toxic Codes
-    }//Toxic Codes
-   
-    if(!user){//Toxic Codes
-        message.channel.send(`There's no person to mute tho`);
-    }
-    message.guild.channels.forEach(f => {//Toxic Codes
-        f.overwritePermissions(role, {//Toxic Codes
-            SEND_MESSAGES: false
-        });
-        user.addRole(role);//Toxic Codes
-       
-    });
-     message.channel.send(`I muted ${user}`);
-}
-});//Toxic Codes
- 
- 
-client.on('message', message => {//Toxic Codes
-if(message.content.startsWith(prefix + 'unmute')){//Toxic Codes
-    let role = message.guild.roles.find(r => r.name === 'Muted');//Toxic Codes
-if(!user.roles.has(role)) {
-    return message.channel.send(`He is not muted`);//Toxic Codes
-}
-    user.removeRole(role).then(message.channel.send(`Unmuted ${user}`));
-   
-}
-}); //Toxic Codes
 
 
 
