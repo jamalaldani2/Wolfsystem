@@ -312,27 +312,21 @@ client.on('guildMemberRemove', member => {
 
 client.on("ready", async  => {
   setInterval(function(){
-  client.channels.find('id', '531483891169492992').setName("W");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("We");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Wel");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welc");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welco");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcom");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome T");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To T");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Tox");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Toxi");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic C");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic Co");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic Cod");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic Code");//Toxic Codes
-  client.channels.find('id', '531483891169492992').setName("Welcome To Toxic Codes");//Toxic Codes
+ client.channels.find('id', '531483891169492992').setName("F");
+  client.channels.find('id', '531483891169492992').setName("F5");
+  client.channels.find('id', '531483891169492992').setName("F5R");
+  client.channels.find('id', '531483891169492992').setName("F5R B");
+  client.channels.find('id', '531483891169492992').setName("F5R BO");
+  client.channels.find('id', '531483891169492992').setName("F5R BOT");
+  client.channels.find('id', '531483891169492992').setName("WF5R BOT S");
+  client.channels.find('id', '531483891169492992').setName("F5R BOT SU");
+  client.channels.find('id', '531483891169492992').setName("F5R BOT SUP");
+  client.channels.find('id', '531483891169492992').setName("TO F5R BOT SUPP");
+  client.channels.find('id', '531483891169492992').setName("F5R BOT SUPPO");
+  client.channels.find('id', '531483891169492992').setName("F5R BOT SUPPOR");
+  client.channels.find('id', '531483891169492992').setName("F5R BOT SUPPORT");
     }, 4000);
   });
-
 
 
 
