@@ -310,23 +310,25 @@ client.on('guildMemberRemove', member => {
     });
 
 
+
 client.on("ready", async  => {
   setInterval(function(){
- client.channels.find('id', '531483891169492992').setName("F");
-  client.channels.find('id', '531483891169492992').setName("F5");
-  client.channels.find('id', '531483891169492992').setName("F5R");
-  client.channels.find('id', '531483891169492992').setName("F5R B");
-  client.channels.find('id', '531483891169492992').setName("F5R BO");
-  client.channels.find('id', '531483891169492992').setName("F5R BOT");
-  client.channels.find('id', '531483891169492992').setName("WF5R BOT S");
-  client.channels.find('id', '531483891169492992').setName("F5R BOT SU");
-  client.channels.find('id', '531483891169492992').setName("F5R BOT SUP");
-  client.channels.find('id', '531483891169492992').setName("TO F5R BOT SUPP");
-  client.channels.find('id', '531483891169492992').setName("F5R BOT SUPPO");
-  client.channels.find('id', '531483891169492992').setName("F5R BOT SUPPOR");
-  client.channels.find('id', '531483891169492992').setName("F5R BOT SUPPORT");
+ client.channels.find('id', '531505411694657541').setName("F");
+  client.channels.find('id', '531505411694657541').setName("F5");
+  client.channels.find('id', '531505411694657541').setName("F5R");
+  client.channels.find('id', '531505411694657541').setName("F5R B");
+  client.channels.find('id', '531505411694657541').setName("F5R BO");
+  client.channels.find('id', '531505411694657541').setName("F5R BOT");
+  client.channels.find('id', '531505411694657541').setName("F5R BOT S");
+  client.channels.find('id', '531505411694657541').setName("F5R BOT SU");
+  client.channels.find('id', '531505411694657541').setName("F5R BOT SUP");
+  client.channels.find('id', '531505411694657541').setName("F5R BOT SUPP");
+  client.channels.find('id', '531505411694657541').setName("F5R BOT SUPPO");
+  client.channels.find('id', '531505411694657541').setName("F5R BOT SUPPOR");
+  client.channels.find('id', '531505411694657541').setName("F5R BOT SUPPORT");
     }, 4000);
   });
+
 
 
 
